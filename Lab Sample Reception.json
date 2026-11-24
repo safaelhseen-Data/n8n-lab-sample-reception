@@ -1,0 +1,402 @@
+{
+  "name": "Lab Sample Reception",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Sample Reception",
+        "formDescription": "Register a new lab sample",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Laboratory",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "LAB-01 | Petroleum Physical Properties Testing Laboratory"
+                  },
+                  {
+                    "option": "LAB-02 | Petroleum Fractionation and Distillation Laboratory"
+                  },
+                  {
+                    "option": "LAB-03 | Gas Chromatography and Mass Spectrometry Laboratory"
+                  },
+                  {
+                    "option": "LAB-04 | Fourier Transform Infrared Spectroscopy Laboratory"
+                  },
+                  {
+                    "option": "LAB-05 | Environmental Water and Wastewater Analysis Laboratory"
+                  },
+                  {
+                    "option": "LAB-06 | Polymer Thermal and Molecular Characterization Laboratory"
+                  },
+                  {
+                    "option": "LAB-07 | Corrosion Electrochemistry and Metallurgical Analysis Laboratory"
+                  },
+                  {
+                    "option": "LAB-08 | Catalyst Characterization and Surface Chemistry Laboratory"
+                  },
+                  {
+                    "option": "LAB-09 | Inductively Coupled Plasma Optical Emission Spectrometry Laboratory"
+                  },
+                  {
+                    "option": "LAB-10 | Classical Wet Chemistry and Titrimetric Analysis Laboratory"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Sample Type",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Aqueous Alkanolamine Solution"
+                  },
+                  {
+                    "option": "Atmospheric Distillation Residue"
+                  },
+                  {
+                    "option": "Austenitic Stainless Steel Corrosion Coupon"
+                  },
+                  {
+                    "option": "Bisphenol-A Epoxy Resin"
+                  },
+                  {
+                    "option": "Boiler Feedwater"
+                  },
+                  {
+                    "option": "Boiler Feedwater for Trace Metals"
+                  },
+                  {
+                    "option": "Carbon Dioxide-Rich Gas Stream"
+                  },
+                  {
+                    "option": "Carbon Steel Corrosion Coupon"
+                  },
+                  {
+                    "option": "Cooling Water"
+                  },
+                  {
+                    "option": "Cooling Water for Trace Metals"
+                  },
+                  {
+                    "option": "Crude Petroleum"
+                  },
+                  {
+                    "option": "Desalter Brine"
+                  },
+                  {
+                    "option": "Fluid Catalytic Cracking (FCC) Catalyst"
+                  },
+                  {
+                    "option": "Gas Turbine Lubricating Oil"
+                  },
+                  {
+                    "option": "Heavy Fuel Oil"
+                  },
+                  {
+                    "option": "High-Density Polyethylene (HDPE) Pellet"
+                  },
+                  {
+                    "option": "Hydraulic Fluid"
+                  },
+                  {
+                    "option": "Hydrocarbon Condensate"
+                  },
+                  {
+                    "option": "Hydrogen-Rich Process Gas"
+                  },
+                  {
+                    "option": "Hydroprocessing Catalyst"
+                  },
+                  {
+                    "option": "Industrial Wastewater"
+                  },
+                  {
+                    "option": "Iron Oxide Corrosion Deposit"
+                  },
+                  {
+                    "option": "Kerosene"
+                  },
+                  {
+                    "option": "Light Straight-Run Naphtha"
+                  },
+                  {
+                    "option": "Liquefied Petroleum Gas"
+                  },
+                  {
+                    "option": "Lithium-Complex Grease"
+                  },
+                  {
+                    "option": "Methanol"
+                  },
+                  {
+                    "option": "Mineral Lubricating Oil"
+                  },
+                  {
+                    "option": "Monoethylene Glycol"
+                  },
+                  {
+                    "option": "Natural Gas"
+                  },
+                  {
+                    "option": "Nickel-Molybdenum Catalyst"
+                  },
+                  {
+                    "option": "Oilfield Scale Digest"
+                  },
+                  {
+                    "option": "Petroleum Bitumen"
+                  },
+                  {
+                    "option": "Pipeline Mineral Scale"
+                  },
+                  {
+                    "option": "Polyethylene Terephthalate (PET) Flake"
+                  },
+                  {
+                    "option": "Polypropylene (PP) Granule"
+                  },
+                  {
+                    "option": "Polyurethane Foam"
+                  },
+                  {
+                    "option": "Produced Water"
+                  },
+                  {
+                    "option": "Produced Water for Trace Metals"
+                  },
+                  {
+                    "option": "Refinery Fuel Gas"
+                  },
+                  {
+                    "option": "Residual Marine Fuel Oil"
+                  },
+                  {
+                    "option": "Seawater"
+                  },
+                  {
+                    "option": "Sodium Hydroxide Solution"
+                  },
+                  {
+                    "option": "Spent Hydrotreating Catalyst"
+                  },
+                  {
+                    "option": "Sulfur Recovery Catalyst"
+                  },
+                  {
+                    "option": "Sulfuric Acid Solution"
+                  },
+                  {
+                    "option": "Transformer Insulating Oil"
+                  },
+                  {
+                    "option": "Vacuum Distillation Residue"
+                  },
+                  {
+                    "option": "Vacuum Gas Oil"
+                  },
+                  {
+                    "option": "Weld Metal Specimen"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Customer Type",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Company"
+                  },
+                  {
+                    "option": "Individual"
+                  },
+                  {
+                    "option": "University Student"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Customer Name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Region",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Eastern Province"
+                  },
+                  {
+                    "option": "Jazan"
+                  },
+                  {
+                    "option": "Madinah"
+                  },
+                  {
+                    "option": "Makkah"
+                  },
+                  {
+                    "option": "Northern Borders"
+                  },
+                  {
+                    "option": "Qassim"
+                  },
+                  {
+                    "option": "Riyadh"
+                  },
+                  {
+                    "option": "Tabuk"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Quantity",
+              "fieldType": "number",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Total Price Before VAT",
+              "fieldType": "number",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Turnaround Days",
+              "fieldType": "number",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Payment Method",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Bank Transfer"
+                  },
+                  {
+                    "option": "Cash"
+                  },
+                  {
+                    "option": "Credit Card"
+                  },
+                  {
+                    "option": "Electronic Wallet"
+                  },
+                  {
+                    "option": "Purchase Order"
+                  }
+                ]
+              },
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "897ef9dd-0383-41e1-ba8c-5c4bcac2b800",
+      "name": "Sample Reception Form",
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.2,
+      "position": [
+        -64,
+        16
+      ],
+      "webhookId": "e8621202-40df-4043-848a-cdbf0f4dae6e"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "WITH nxt AS (SELECT COALESCE(MAX(SUBSTRING(sample_id FROM 5)::int),0)+1 AS n FROM samples),\ns AS (INSERT INTO samples (sample_id, sample_reference, laboratory_id, laboratory_name, sample_type, customer_type, customer_name, sample_quantity, received_date, expected_result_date, sample_price_before_vat, region) SELECT 'SMP-'||LPAD(n::text,6,'0'), 'OCL-'||EXTRACT(YEAR FROM CURRENT_DATE)::int||'-'||LPAD(n::text,6,'0'), split_part($1::text,' | ',1), split_part($1::text,' | ',2), $2::text, $3::text, $4::text, $5::int, CURRENT_DATE, CURRENT_DATE+$6::int, $7::numeric, $8::text FROM nxt RETURNING sample_id, sample_reference, sample_quantity, sample_price_before_vat),\nf AS (INSERT INTO finance (sample_id, sample_reference, unit_price, quantity, student_discount_rate, subtotal_before_vat, vat_rate, vat_amount, total_amount, paid_amount, outstanding_amount, payment_method, payment_status, payment_date) SELECT sample_id, sample_reference, ROUND(sample_price_before_vat/NULLIF(sample_quantity,0),2), sample_quantity, 0, sample_price_before_vat, 15, ROUND(sample_price_before_vat*0.15,2), ROUND(sample_price_before_vat*1.15,2), 0, ROUND(sample_price_before_vat*1.15,2), $9::text, 'Unpaid', NULL FROM s RETURNING sample_id),\nr AS (INSERT INTO results (sample_id, sample_reference, report_status, is_delayed, result_collected) SELECT sample_id, sample_reference, 'Pending', false, false FROM s RETURNING sample_id)\nSELECT sample_id, sample_reference FROM s;",
+        "options": {
+          "queryReplacement": "={{ [$json['Laboratory'], $json['Sample Type'], $json['Customer Type'], $json['Customer Name'], $json['Quantity'], $json['Turnaround Days'], $json['Total Price Before VAT'], $json['Region'], $json['Payment Method']] }}"
+        }
+      },
+      "id": "df3cb625-06e9-4b63-85e9-8f4ca19a9884",
+      "name": "Save Sample",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        256,
+        16
+      ],
+      "credentials": {
+        "postgres": {
+          "id": "21RmwseO1Q6nfRYy",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "your-email@example.com",
+        "subject": "=عينة جديدة تم استلامها: {{ $json.sample_id }}",
+        "emailType": "text",
+        "message": "=تم استلام عينة جديدة في المعمل.  رقم العينة: {{ $json.sample_id }} الرقم المرجعي: {{ $json.sample_reference }} المعمل: {{ $('Sample Reception Form').item.json['Laboratory'] }} نوع العينة: {{ $('Sample Reception Form').item.json['Sample Type'] }} العميل: {{ $('Sample Reception Form').item.json['Customer Name'] }} ({{ $('Sample Reception Form').item.json['Customer Type'] }}) المنطقة: {{ $('Sample Reception Form').item.json['Region'] }} الكمية: {{ $('Sample Reception Form').item.json['Quantity'] }} تاريخ الاستلام: {{ $now.toFormat('yyyy-MM-dd') }} تاريخ النتيجة المتوقع: {{ $now.plus({days: Number($('Sample Reception Form').item.json['Turnaround Days'])}).toFormat('yyyy-MM-dd') }} المبلغ شامل الضريبة: {{ ($('Sample Reception Form').item.json['Total Price Before VAT'] * 1.15).toFixed(2) }} ريال طريقة الدفع: {{ $('Sample Reception Form').item.json['Payment Method'] }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        400,
+        64
+      ],
+      "id": "73b92518-8e38-4168-a283-4e67ad4ac90b",
+      "name": "Send a message",
+      "webhookId": "92d3a63d-a4a1-41b1-88a0-e0e886992b43",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "O5tYtQIDmRTYrhtK",
+          "name": "Gmail account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Sample Reception Form": {
+      "main": [
+        [
+          {
+            "node": "Save Sample",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save Sample": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "169ec250-4d5b-43f7-8df4-baa44a9612c8",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "9d02ba5940c1f23e4cd83db54f77836cf9bf869730bf19110cf28e81caec5796"
+  },
+  "nodeGroups": [],
+  "id": "2FuW64SBZe2YlNon",
+  "tags": []
+}
