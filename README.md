@@ -78,8 +78,15 @@ n8n · PostgreSQL (Neon) · SQL · Gmail API · Power BI · DBeaver · GitHub
 - [ ] إشعار البريد الإلكتروني
 - [ ] الجداول في قاعدة البيانات
 
+## المشروع المرتبط | Related Project
+
+التحليل ولوحات Power BI مبنية على نفس البيانات التجريبية، وموجودة في مشروع منفصل:
+
+[oil-central-lab-powerbi](https://github.com/safaelhseen-Data/oil-central-lab-powerbi)
+
+The Power BI analysis and dashboards built on the same synthetic dataset live in a separate repository (link above).
+
 ## ملاحظات | Notes
 
 - جميع البيانات تجريبية ولا تخص أي جهة حقيقية.
-- تحليل البيانات في Power BI مبني على نفس مجموعة البيانات.
 - خطوات مستقبلية: فورم لتحديث نتيجة العينة وتسجيل الدفع، وربط Power BI بقاعدة البيانات مباشرة.
